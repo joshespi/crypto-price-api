@@ -9,3 +9,10 @@ Docker Engine
 docker build -t crypto_api_python .
 ## start
 docker run -d -v "$(pwd):/app" crypto_api_python
+
+## Changes
+## 1.1
+- updated filename to be more descriptive
+- added update timestamp to json data
+### 1.0
+- intial release
