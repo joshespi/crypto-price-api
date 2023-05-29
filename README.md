@@ -1,4 +1,5 @@
 # Crypto Price API
+python runs, will create a file data.json that will include prices of the supported coins.
 ## Requires
 Docker Engine
 
