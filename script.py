@@ -20,7 +20,7 @@ headers = {
 session = Session()
 session.headers.update(headers)
 
-coins = ['BTC', 'ETH','MIOTA','ADA','BAT','SMR']
+coins = ['BTC', 'ETH','MIOTA','ADA','BAT','SMR','SOL']
 data_file = 'coin_prices_data.json'  # Updated filename
 
 def fetch_prices():
@@ -59,5 +59,5 @@ fetch_prices()
 # Enter an infinite loop to update prices every 10 minutes
 while True:
     # for each additional coin supported, sleep time needs to be increased by about 375 seconds to stay under the 10k a month free threshold
-    time.sleep(1675)  # Sleep for ~27.9 minutes
+    time.sleep(2050)  # Sleep for ~34.16 minutes
     fetch_prices()
